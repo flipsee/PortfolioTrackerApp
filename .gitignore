@@ -1,0 +1,17 @@
+# dependencies
+/.vs
+/packages 
+
+# testing
+/TestResults
+
+# production
+/Common/bin/
+/Infrastructure/bin/
+/PortfolioTrackerApp/bin/
+/Service/bin/
+/Test/bin/
+
+
+# misc
+.DS_Store

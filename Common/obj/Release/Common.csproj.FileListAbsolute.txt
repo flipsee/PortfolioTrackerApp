@@ -1,0 +1,11 @@
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\Common.dll
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\Common.pdb
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\AutoMapper.dll
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\Newtonsoft.Json.dll
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\AutoMapper.xml
+C:\Workspace\test\PortfolioTrackerApp\Common\bin\Release\Newtonsoft.Json.xml
+C:\Workspace\test\PortfolioTrackerApp\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\Workspace\test\PortfolioTrackerApp\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Workspace\test\PortfolioTrackerApp\Common\obj\Release\Common.csproj.CopyComplete
+C:\Workspace\test\PortfolioTrackerApp\Common\obj\Release\Common.dll
+C:\Workspace\test\PortfolioTrackerApp\Common\obj\Release\Common.pdb
