@@ -12,6 +12,12 @@
 /Service/bin/
 /Test/bin/
 
+/Common/obj/
+/Infrastructure/obj/
+/PortfolioTrackerApp/obj/
+/Service/obj/
+/Test/obj/
+
 
 # misc
 .DS_Store

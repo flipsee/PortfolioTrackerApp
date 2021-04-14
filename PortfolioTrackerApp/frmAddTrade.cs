@@ -41,13 +41,19 @@ namespace PortfolioTrackerApp
         public void SaveTrade()
         {
             var tradeVM = GetTradeEntry();
-            var trade = mapper.Map<TradeVM, Trade>(tradeVM);
-            var msg = tradeSvc.Add(trade);
+            if (tradeVM != null)
+            {
+                var trade = mapper.Map<TradeVM, Trade>(tradeVM);
+                var msg = tradeSvc.Add(trade);
 
-            if (msg.HasError)
-                MessageBox.Show(msg.ErrorText, "Save Trade");
+                if (msg.HasError)
+                    MessageBox.Show(msg.ErrorText, "Save Trade");
+                else
+                    MessageBox.Show("Trade Saved", "Save Trade");
+            }
             else
-                MessageBox.Show("Trade Saved", "Save Trade");
+                MessageBox.Show("Invalid Entry detected", "Save Trade");
+
         }
 
         private TradeVM GetTradeEntry()
